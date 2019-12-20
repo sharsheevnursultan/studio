@@ -1,23 +1,23 @@
 'use strict';
 
 function Tabs() {
-    let bindAll = function() {
+    let bindAll = function () {
         let menuElements = document.querySelectorAll('[data-tab]');
-        for(let i = 0; i < menuElements.length ; i++) {
+        for (let i = 0; i < menuElements.length; i++) {
             menuElements[i].addEventListener('click', change, false);
         }
     };
 
-    let clear = function() {
+    let clear = function () {
         let menuElements = document.querySelectorAll('[data-tab]');
-        for(let i = 0; i < menuElements.length ; i++) {
+        for (let i = 0; i < menuElements.length; i++) {
             menuElements[i].classList.remove('active');
             let id = menuElements[i].getAttribute('data-tab');
             document.getElementById(id).classList.remove('active');
         }
     };
 
-    let change = function(e) {
+    let change = function (e) {
         clear();
         e.target.classList.add('active');
         let id = e.currentTarget.getAttribute('data-tab');
@@ -28,3 +28,10 @@ function Tabs() {
 }
 
 let connectTabs = new Tabs();
+
+
+function addMenuActive() {
+    let event = document.getElementById('menu-btn');
+    event.classList.toggle('header-ul');
+    console.log('worked')
+}

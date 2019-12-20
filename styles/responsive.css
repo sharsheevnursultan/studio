@@ -49,6 +49,9 @@
         display: none;
         list-style: none;
     }
+    .centering h1 {
+        font-size: 40px;
+    }
 
     .header-bg {
         background: #086972;
