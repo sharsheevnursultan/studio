@@ -32,6 +32,6 @@ let connectTabs = new Tabs();
 
 function addMenuActive() {
     let event = document.getElementById('menu-btn');
-    event.classList.toggle('header-ul');
-    console.log('worked')
+    event.classList.toggle('activeMenu');
+
 }

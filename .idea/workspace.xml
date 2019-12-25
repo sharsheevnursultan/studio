@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefd770b-d35e-4bf8-b5de-c5fefe0b355b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -85,7 +84,8 @@
       <workItem from="1576819520080" duration="11985000" />
       <workItem from="1576855338411" duration="850000" />
       <workItem from="1576856204939" duration="2521000" />
-      <workItem from="1576858826199" duration="3166000" />
+      <workItem from="1576858826199" duration="5288000" />
+      <workItem from="1576937941668" duration="75000" />
     </task>
     <servers />
   </component>
@@ -96,10 +96,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1576858826188">
+    <state x="403" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1576938015059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="403" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576858826188" />
+    <state x="403" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576938015059" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1576857194736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

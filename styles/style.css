@@ -144,7 +144,7 @@
 }
 
 .fourImageText {
-    padding-top: 15px;
+    padding: 15px 0;
     font-weight: bold;
 }
 
@@ -437,15 +437,14 @@
 .activeMenu{
     position: absolute;
     list-style: none;
-    display: flex;
+    display: none;
     flex-flow: column;
     text-align: center;
     top: 40px;
     content: '';
     left: 0;
     background: #f1f5f8;
-    width: 115%;
-    margin: 0 -20px;
+    width: 100%;
 }
 .activeMenu li a{
     color: black;
