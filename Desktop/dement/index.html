@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dement studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+</head>
+
+<body>
+<header>
+    <div class="header-bg">
+        <div class="container">
+            <div class="header-responsive">
+
+                <ul class="header-ul">
+                    <li><a href="card-product.html">Каталог</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="questions.html">Вопрос-Ответ</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                </ul>
+
+                <div onclick="addMenuActive()" class="mobile-menu">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                </div>
+                <div class="red-number-div">
+                    <h3>
+                        +7 985 22 11
+                    </h3>
+                    <h5>
+                        <a class="color-red" href="#">Больше контактов</a>
+                    </h5>
+                </div>
+                <div class="header-btn">
+                    <a href="#">
+                        Заказать звонок
+                    </a>
+                </div>
+
+            </div>
+            <ul id="menu-btn" class="header-ul-responsive">
+                <li><a href="card-product.html">Каталог</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="questions.html">Вопрос-Ответ</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logo-bg">
+        <div class="container">
+            <div class="logo-and-search">
+                <div class="logo-div">
+                    <img src="images/logo.jpg" alt="">
+                </div>
+
+                <div class=" search-panel">
+
+                    <input class="search-input" type="search" placeholder="Поиск товара по названию или артикулу">
+
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="logo-div-mobile">
+                    <img src="images/logo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="main-bg-wood">
+        <div class="container">
+            <div class="centering">
+                <h1>
+                    Кварцвиниловая плитка <br> Alpine floor
+                </h1>
+                <h4>
+                    Уют и комфорт в вашем доме
+                </h4>
+                <div class="header-btn">
+                    <a href="#">Перейти в каталог</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="paddingForImages row">
+                <div class="col-md-3 d-flex flex-column">
+                    <img class="m-auto" src="images/tree.jpg" alt="">
+                    <h6 class="fourImageText">
+                        Экологически чистый материал
+                    </h6>
+                </div>
+                <div class="col-md-3 d-flex flex-column">
+                    <img class="m-auto" src="images/shield.jpg" alt="">
+                    <h6 class="fourImageText">
+                        Прочный пол
+                    </h6>
+                </div>
+                <div class="col-md-3 d-flex flex-column">
+                    <img class="m-auto" src="images/clean.jpg" alt="">
+                    <h6 class="fourImageText">
+                        Легкая уборка
+                    </h6>
+                </div>
+                <div class="col-md-3 d-flex flex-column">
+                    <img class="m-auto" src="images/water.jpg" alt="">
+                    <h6 class="fourImageText">
+                        Влагостойкость
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card-block-bg">
+        <div class="container">
+            <div class="carouselBlocks">
+                <div class="">
+                    <h5 class="card-title-text"><b>Выгодно сегодня</b></h5>
+                    <div class="line-in-between-cards"></div>
+                    <div  id="owl-carousel-main-2"  class="owl-carousel owl-theme">
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="">
+                    <h5 class="card-title-text"><b>Выбор клиентов</b></h5>
+                    <div class="line-in-between-cards"></div>
+                    <div  id="owl-carousel-main-1"  class="owl-carousel owl-theme">
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="cards-block">
+                                <img src="images/main-page-wood.jpg" alt="">
+                                <div class="in-card-text-padding">
+                                    <h5 class="in-card-h5"><b><a href="#">Кварцвиниловая плитка Classic</a></b></h5>
+                                    <div class="d-flex">
+                                        <div>
+                                            <h6 class="in-card-h6">Дуб Старинный ECO140-9</h6>
+                                        </div>
+                                        <div class="in-card-image-div">
+                                            <img class="in-card-image" src="images/belgium_round_icon_64.png"
+                                                 alt="">
+                                        </div>
+                                    </div>
+                                    <div class="in-card-check">
+                                        <h6 class="in-card-check-text">
+                                            В наличии
+                                        </h6>
+                                        <div>
+                                            <i class="fas fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <h3 class="in-card-price">
+                                        1850 р/м2
+                                    </h3>
+
+                                    <a class="in-card-btn" href="#">
+                                        <div class="btn-block">
+                                            Купить
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center">
+                <h1><b>Лучше, чем линолеум, ламинат и керамика</b></h1>
+                <h5>Сравнения покрытия с кварцвиниловой плиткой</h5>
+            </div>
+            <div>
+                <div class="d-flex">
+                    <div class="tabs-name"><b>
+                        <a href="#orange" data-tab="orange" class="b-nav-tab active">
+
+                            Ламинат
+
+
+                        </a> </b>
+                        <b> <a href="#green" data-tab="green" class="b-nav-tab">
+
+                            Керамика
+
+
+                        </a> </b>
+                        <b> <a href="#blue" data-tab="blue" class="b-nav-tab">
+
+                            Линолеум
+
+
+                        </a></b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="orange" class="b-tab active">
+                            <div class="text-tabs">
+                                <h5>
+                                    <b>
+                                        Ламинат:
+                                    </b>
+                                </h5>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Не влагостойкий материал
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Низкая износостойкость
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Применение формальдегидных смол
+                                </div>
+                            </div>
+                        </div>
+                        <div id="green" class="b-tab">
+                            <div class="text-tabs">
+                                <h5>
+                                    <b>
+                                        Керамика:
+                                    </b>
+
+                                </h5>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Не влагостойкий материал
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Низкая износостойкость
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Применение формальдегидных смол
+                                </div>
+                            </div>
+                        </div>
+                        <div id="blue" class="b-tab">
+                            <div class="text-tabs">
+                                <h5>
+                                    <b>
+                                        Линолеум:
+                                    </b>
+
+                                </h5>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Не влагостойкий материал
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Низкая износостойкость
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Применение формальдегидных смол
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-tab">
+                            <div class="text-tabs">
+                                <h5>
+                                    <b>
+                                        Кварцвиниловая плитка:
+                                    </b>
+
+                                </h5>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Высокая износостойкость
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Специальное противоскользящее покрытие
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Абсолютно влагостойкий материал
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Бесшовный монтаж
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Не требует подложки
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Лёгкий удельный вес
+                                </div>
+                                <div class="in-tabs-content">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Прост в монтаже
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-bg">
+        <div class="container">
+
+            <div class="text-center">
+                <h1>
+                    <b>
+                        Магазин напольных покрытий
+                    </b>
+                </h1>
+            </div>
+            <div>
+                <h5>
+                    Текст О компании, магазине.
+                </h5>
+                <h5>
+                    Направлением деятельности интернет-магазина является продажа напольных покрытий по самым выгодным
+                    ценам.
+                    С нашей продукцией ваш пол будет выглядеть стильно, а дом станет еще более гостеприимным, светлым и
+                    уютным. Мы предлагаем купить по-настоящему качественные материалы, заплатив зв которые, вы забудете
+                    о
+                    ремонте на долгое время. Еще один плюс - доставляем товар по всей России.
+
+                </h5>
+                <h5>
+                    Текст О компании, магазине.
+                </h5>
+                <h5>
+                    Направлением деятельности интернет-магазина является продажа напольных покрытий по самым выгодным
+                    ценам.
+                    С нашей продукцией ваш пол будет выглядеть стильно, а дом станет еще более гостеприимным, светлым и
+                    уютным. Мы предлагаемкупить по-настоящему качественные материалы.
+
+                </h5>
+            </div
+            >
+        </div>
+
+    </section>
+</main>
+<footer>
+    <div class="footer-bg">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-logo ">
+                    <img class="m-auto" src="images/logo.jpg" alt="">
+                </div>
+                <div>
+                    <ul class="footer-ul">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вопрос-Ответ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer-ul">
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Плитка</a></li>
+                        <li><a href="#">Ламинат</a></li>
+                        <li><a href="#">Паркет</a></li>
+                        <li><a href="#">Гибрид</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer-ul">
+                        <li>
+                            <h4 class="footer-number">+7 985 22 11</h4>
+                        </li>
+                        <li>
+                            <div class="footer-btn-div">
+                                <a class="footer-btn" href="#">Заказать звонок</a>
+                            </div>
+
+                        </li>
+                        <li>г. Москва.</li>
+                        <li>ул. Центральная, д.1</li>
+                        <li>Время работы:</li>
+                        <li>Понедельник-Пятница</li>
+                        <li>9:00 - 17:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/owl-carousel.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
